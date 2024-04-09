@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: #843735;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("cartel.png");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+a {
+    color: white;
+}
+main {
+    background-color: #843735;
+    color: bisque;
+    text-align: center;
+    
+}
+
+#formu {
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    
+}
+footer {
+    background-color: #843735;
+}
+
+.titulo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+img {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+}

@@ -1,10 +1,10 @@
 * {
     margin: 0;
+    font-family: "Nunito", sans-serif;
 }
 header {
     background-color: #843735;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("cartel.png");
     background-size: cover;
     width: 100%;
@@ -43,3 +43,5 @@ img {
 label {
     display: block;
 }
+
+

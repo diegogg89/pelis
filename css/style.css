@@ -5,32 +5,47 @@
 }
 nav {
     background-color: #843735;
-    color: black;
-    margin-bottom: 20px;
     text-align: right;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    
 }
+
+nav > a {
+    text-decoration: none;
+    padding-left:  10px;
+    margin-right: 10px;
+    
+}
+
+
 
 header {
     background-color: #843735;
     color: rgb(240, 245, 246);
     text-align: center;
+    font-size: 1.5vw;
     background-image: url("cartel.png");
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 45vw;
+    
     
     
     
 }
 a {
     color: white;
+   
+    
 }
 
 a:hover {
     font-weight: bold;
+   
 }
 
-main {
+#main1 {
     background-color: #843735;
     color: bisque;
     text-align: center;
@@ -38,27 +53,24 @@ main {
     
 }
 
-#formu {
-    background-color: black;
-    color: orangered;
-    text-align: center;
-    
-}
+
+
 footer {
     background-color: #843735;
 }
 
-.titulo {
+.titulo2 {
     padding-top: 30px;
     padding-bottom: 20px;
 }
 img {
     margin: 5px;
     border-radius: 10px;
+    width: 15vw;
 }
 
 img:hover {
-    width: 200px;
+    width: 17vw;
     
 }
 
@@ -66,4 +78,64 @@ label {
     display: block;
 }
 
+.bodySesion {
+    color: rgb(240, 245, 246);
+    text-align: center;
+    font-size: 1.5vw;
+    background-image: url("pngtree-cinema-movie-promotion-poster-background-material-image_150174.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
 
+    
+}
+
+.bodySesion input {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bodySesion main {
+    background-color: #131212;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.campos {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #2B2A29 ;
+    border: 2px solid #C41313 ;
+    padding-left: 10px;
+}
+
+.boton {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #C41313;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    color: white;
+    
+}
+
+.reg {
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 12px;
+    color: #5a5656;
+}
+
+#personajes {
+    background-color: #131212;
+    color: yellow;
+}

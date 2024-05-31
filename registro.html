@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF.8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foemulario</title>
     <link rel="stylesheet" href="css/style.css">
 
 
 </head>
-<body id="formu">
-    <h1><b>Completa tus datos</b></h1>
-    <form action="">
-        <label for="nombre1"> Nombre:</label>
-        <input size="30" type="text" name="nombre1" id="nombre1">
-        <label for="apellido1"> Apellido:</label>
-        <input size="30" type="text" name="apellido1" id="apellido1">
-        <label for="fecha"> Fecha de nacimiento:</label>
-        <input type="date" id="fecha"> 
-        <label for="pais" >Nacionalidad: </label>
-                <select name="lugar" id="pais">
-                    <option value="">--Seleccionar pais--</option>
-                    <option value="argentina">Argentina</option>
-                    <option value="brasil">Brasil</option>
-                    <option value="alemania">Alemania</option>
-                    <option value="uruguay">Uruguay</option>
-                </select>
-
-        <h3>Generos que te gustan</h3>
-        <input type="checkbox" value="acccion">Accion
-        <input type="checkbox" value="aventura">Aventura 
-        <input type="checkbox" value="ciencia">Ciencia Ficcion
-        <input type="checkbox" value="comedia">Comedia
-        <input type="checkbox" value="drama">Drama 
-        <input type="checkbox" value="fantasia">Fantasia 
-        <input type="checkbox" value="suspenso">Suspenso 
-        <input type="checkbox" value="terror">Terror
+<body class="bodySesion">
+    
+    
+    <main >
+        <h1><b>Completa tus datos</b></h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Nombre" class="campos"/>
+                <input type="text" placeholder="Apellido" class="campos"/>
+                <input type="text" placeholder="Email" class="campos"/>
+                <input type="text" placeholder="Contraseña" class="campos"/>
+                <input type="text" placeholder="Contraseña" class="campos"/>
+                <input type="text" placeholder="Reingrese contraseña" class="campos"/>
+            </div>    
+            <input type="submit" class="boton" value="Enviar" />
+        </form>
+        <a href="sesion.html" class="reg">Iniciar sesión</a>
+        
 
 
-        <br>
-        <label for="mail"> Correo:</label>
-        <input size="40" type="text" name="mail" id="mail"> 
-        <label for="contrasena"> Cree su Password:</label>
-        <input size="15" type="password" name="contrasena" id="contrasena">     
-        <label for="contrasena2"> Reingrese su Password:</label>
-        <input size="15" type="password" name="contrasena2" id="contrasena2">   
-        <textarea rows="10" cols="30" placeholder="Comentarios..." ></textarea>
-        <input type="submit" value="Registrar">
-        <input type="reset" value="Cancelar">
-    </form>
+
+
+    </main>
+
+    <script src="script.js"></script> 
 </body>
 </html>

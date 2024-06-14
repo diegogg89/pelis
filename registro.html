@@ -13,18 +13,19 @@
     
     <main >
         <h1><b>Completa tus datos</b></h1>
-        <form>
+        <form action="datos.php" method="post">
             <div>
-                <input type="text" placeholder="Nombre" class="campos"/>
-                <input type="text" placeholder="Apellido" class="campos"/>
-                <input type="text" placeholder="Email" class="campos"/>
-                <input type="text" placeholder="Contraseña" class="campos"/>
-                <input type="text" placeholder="Contraseña" class="campos"/>
-                <input type="text" placeholder="Reingrese contraseña" class="campos"/>
+                <input type="text" name="nombre" placeholder="Nombre" class="campos"/>
+                <input type="text" name="apellido" placeholder="Apellido" class="campos"/>
+                <input type="email" name="email" placeholder="Email" class="campos"/>
+                <input type="number" name="edad" placeholder="Edad" class="campos"/>
+                <input type="password" name="pass" placeholder="Contraseña" class="campos"/>
+                <input type="password" name="pass2" placeholder="Reingrese contraseña" class="campos"/>
             </div>    
             <input type="submit" class="boton" value="Enviar" />
         </form>
         <a href="sesion.html" class="reg">Iniciar sesión</a>
+        <a href="index.html" class="reg">Menú principal</a>
         
 
 
